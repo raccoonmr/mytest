@@ -24,7 +24,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "CDNTest" --name "staticwebappmrtest.azureedge.net" --resource-group "CDN-Workbook-Test-RG"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "CDNTest" --name "staticwebappmrtest" --resource-group "CDN-Workbook-Test-RG"
            
 # Azure logout
     - name: logout
